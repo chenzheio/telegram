@@ -61,10 +61,7 @@ import { readFileSync, writeFileSync } from "fs";
     }, new NewMessage({ outgoing: true }));
 
     client.addEventHandler(async ({ message: _M }: NewMessageEvent) => {
-
         console.log(_M.message);
-
-
     }, new NewMessage({ outgoing: false }));
 
 })();
