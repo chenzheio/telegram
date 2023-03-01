@@ -4,5 +4,4 @@ services:
     image: 'chenzheio/telegram:latest'
     restart: unless-stopped
     volumes:
-      - ./user:/app/session_user
-      - ./dist:/app/dist
+      - ./data:/app
